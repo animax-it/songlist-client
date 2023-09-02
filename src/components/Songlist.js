@@ -1,6 +1,7 @@
 import React from 'react';
 
 const SongList = ({ songs, onSongSelect }) => {
+  
   return (
     <div className="song-list">
       <h3>Songs</h3>

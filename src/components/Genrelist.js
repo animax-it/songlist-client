@@ -1,20 +1,21 @@
 import React from 'react';
+import './styles.css';
 
 const GenreList = ({ genres, selectedGenre, onGenreSelect }) => {
   return (
     <div className="genre-list">
-      <h3>Genres</h3>
-      <ul>
+      <div><h3>Genres</h3></div>
+      <div className="genre-buttons">
         {genres.map((genre) => (
-          <li
+          <button
             key={genre}
-            className={selectedGenre === genre ? 'active' : ''}
+            className={selectedGenre === genre ? 'selected' : ''}
             onClick={() => onGenreSelect(genre)}
           >
             {genre}
-          </li>
+          </button>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

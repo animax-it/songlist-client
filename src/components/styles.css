@@ -1,0 +1,137 @@
+/* styles.css */
+.genre-list {
+  text-align: center; /* Center the genres */
+  margin-bottom: 20px;
+}
+
+.genre-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px;
+}
+
+.edit-button {
+  /* Your existing styles for the edit button */
+  font-size: 1.5rem; /* Increase the font size to make the button bigger */
+  width: 30px; /* Increase the width to make the button wider */
+  height: 30px; /* Increase the height to make the button taller */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any other desired styles for the edit button */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button.selected {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+
+/* Existing styles... */
+
+.search-container {
+  margin-top: 20px;
+  width: 80%; /* Adjust the width as needed */
+}
+
+input[type='text'] {
+  width: 350px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* styles.css */
+.app {
+  display: flex;
+  justify-content: center; /* Center the containers horizontally */
+  padding: 20px;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+
+}
+
+
+.container-wrapper {
+  display: flex;
+}
+
+.container {
+  flex: 2;
+}
+
+.left {
+  margin-right: 20px;
+   /* Add some spacing between the two containers */
+}
+
+.right {
+  flex: 5;
+}
+
+/* Rest of the existing styles... */
+.details-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.details-card {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  /* Add your desired styling for the card appearance */
+}
+.details-labels {
+  width: 20%;
+  /* Add your desired styling for the labels */
+}
+
+.details-values {
+  width: 80%;
+  /* Add your desired styling for the values */
+}
+
+.lyrics-content {
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 5px;
+  height : 70%
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
